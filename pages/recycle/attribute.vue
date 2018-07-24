@@ -29,26 +29,42 @@
             </Select>
           </div>
           <div class="block">
-            <h3 class="name">型号版本</h3>
+            <h3 class="name">机身内存</h3>
             <Select class="choice" v-model="model1" style="width:200px">
               <Option v-for="item in cityList" :value="item.value" :key="item.value">{{ item.label }}</Option>
             </Select>
           </div>
           <div class="block">
-            <h3 class="name">型号版本</h3>
+            <h3 class="name">机身颜色</h3>
             <Select class="choice" v-model="model1" style="width:200px">
               <Option v-for="item in cityList" :value="item.value" :key="item.value">{{ item.label }}</Option>
             </Select>
           </div>
           <div class="block">
-            <h3 class="name">型号版本</h3>
+            <h3 class="name">机身外观</h3>
+            <Select class="choice" v-model="model1" style="width:200px">
+              <Option v-for="item in cityList" :value="item.value" :key="item.value">{{ item.label }}</Option>
+            </Select>
+          </div>
+          <div class="block">
+            <h3 class="name">屏幕外观</h3>
+            <Select class="choice" v-model="model1" style="width:200px">
+              <Option v-for="item in cityList" :value="item.value" :key="item.value">{{ item.label }}</Option>
+            </Select>
+          </div>
+          <div class="block">
+            <h3 class="name">屏幕现实</h3>
             <Select class="choice" v-model="model1" style="width:200px">
               <Option v-for="item in cityList" :value="item.value" :key="item.value">{{ item.label }}</Option>
             </Select>
           </div>
         </div>
-        <div id="right-content"></div>
-        <div id="button"><Button type="primary" size="large">立即估价</Button></div>
+        <div id="right-content">
+          <div id="pic-block"><img src="/mac/mac1.jpeg"/>
+            <h2>macbook air</h2></div>
+
+        </div>
+        <div id="button"><router-link to="/recycle/assess"><Button type="primary" size="large">立即估价</Button></router-link> </div>
       </div>
 
 
@@ -131,7 +147,7 @@ export default {
   #right-content{
     background-color: #fff;
     width: 300px;
-    height: 195px;
+    height: 220px;
     border-color: #e3e5e8;
     border-style: solid;
     border-width: 1px;
@@ -153,5 +169,8 @@ export default {
   #button{
     margin-left: 500px;
     margin-top: 20px
+  }
+  #pic-block{
+    text-align center;
   }
 </style>

@@ -41,68 +41,118 @@
     <div id="content">
       <div id="content-block">
         <div class="sub-title">请选择您的机型</div>
-
         <Tabs :animated="false">
-          <TabPane :label="label1" ><div id="type">
-            <div class="sub-title">{{type}} 相关机型</div>
+          <TabPane :label="label1" ><div >
+            <div class="sub-title">苹果相关机型</div>
             <ul>
               <li class="type-block">
                 <router-link  to="/recycle/attribute">
-                  <div><img src="/home/type.png"/></div>
-                  <h5>苹果iphone SE</h5>
+                  <div><img src="/mac/mac1.jpeg"/></div>
+                  <h5>macbook air</h5>
                 </router-link>
               </li>
               <li class="type-block">
                 <router-link  to="/recycle/attribute">
-                  <div><img src="/home/type.png"/></div>
-                  <h5>苹果iphone SE</h5>
+                  <div><img src="/mac/mac2.jpeg"/></div>
+                  <h5>macbook pro</h5>
                 </router-link>
               </li>
               <li class="type-block">
-                <a href="Hero.vue">
-                  <div><img src="/home/type.png"/></div>
-                  <h5>苹果iphone SE</h5>
-                </a>
+                <router-link  to="/recycle/attribute">
+                  <div><img src="/mac/mac3.jpeg"/></div>
+                  <h5>macbook</h5>
+                </router-link>
               </li>
               <li class="type-block">
-                <a href="Hero.vue">
-                  <div><img src="/home/type.png"/></div>
-                  <h5>苹果iphone SE</h5>
-                </a>
-              </li>
-              <li class="type-block">
-                <a href="Hero.vue">
-                  <div><img src="/home/type.png"/></div>
-                  <h5>苹果iphone SE</h5>
-                </a>
-              </li>
-              <li class="type-block">
-                <a href="Hero.vue">
-                  <div><img src="/home/type.png"/></div>
-                  <h5>苹果iphone SE</h5>
-                </a>
-              </li>
-              <li class="type-block">
-                <a href="Hero.vue">
-                  <div><img src="/home/type.png"/></div>
-                  <h5>苹果iphone SE</h5>
-                </a>
-              </li>
-              <li class="type-block">
-                <a href="Hero.vue">
-                  <div><img src="/home/type.png"/></div>
-                  <h5>苹果iphone SE</h5>
-                </a>
+                <router-link  to="/recycle/attribute">
+                  <div><img src="/mac/mac4.jpeg"/></div>
+                  <h5>macbook pro new</h5>
+                </router-link>
               </li>
             </ul>
           </div></TabPane>
-          <TabPane :label="label1">标签二的内容</TabPane>
-          <TabPane :label="label2">标签三的内容</TabPane>
-          <TabPane :label="label3">标签二的内容</TabPane>
-          <TabPane :label="label4">标签三的内容</TabPane>
-          <TabPane :label="label5">标签三的内容</TabPane>
-        </Tabs>
+          <TabPane :label="label2" ><div >
+            <div class="sub-title">惠普相关机型</div>
+            <ul>
+              <li class="type-block">
+                <router-link  to="/recycle/attribute">
+                  <div><img src="/hp/hp1.jpeg"/></div>
+                  <h5> 348 G3</h5>
+                </router-link>
+              </li>
+              <li class="type-block">
+                <router-link  to="/recycle/attribute">
+                  <div><img src="/hp/hp2.jpeg"/></div>
+                  <h5> EliteBook 1030 G1</h5>
+                </router-link>
+              </li>
+              <li class="type-block">
+                <router-link  to="/recycle/attribute">
+                  <div><img src="/hp/hp3.jpeg"/></div>
+                  <h5> ENVY 13-ab026TU</h5>
+                </router-link>
+              </li>
+              <li class="type-block">
+                <router-link  to="/recycle/attribute">
+                  <div><img src="/hp/hp4.jpeg"/></div>
+                  <h5> ENVY X360</h5>
+                </router-link>
+              </li>
+              <li class="type-block">
+                <router-link  to="/recycle/attribute">
+                  <div><img src="/hp/hp5.jpeg"/></div>
+                  <h5>Pavilion bc217TX</h5>
+                </router-link>
+              </li>
+              <li class="type-block">
+                <router-link  to="/recycle/attribute">
+                  <div><img src="/hp/hp6.jpeg"/></div>
+                  <h5> Spectre w022TU</h5>
+                </router-link>
+              </li>
+              <li class="type-block">
+                <router-link  to="/recycle/attribute">
+                  <div><img src="/hp/hp7.jpeg"/></div>
+                  <h5>pavilion 15-cb075TX</h5>
+                </router-link>
+              </li>
+              <li class="type-block">
+                <router-link  to="/recycle/attribute">
+                  <div><img src="/hp/hp8.jpeg"/></div>
+                  <h5>WASD暗影精灵</h5>
+                </router-link>
+              </li>
+              <li class="type-block">
+                <router-link  to="/recycle/attribute">
+                  <div><img src="/hp/hp9.jpeg"/></div>
+                  <h5>WASD暗影精灵||</h5>
+                </router-link>
+              </li>
+              <li class="type-block">
+                <router-link  to="/recycle/attribute">
+                  <div><img src="/hp/hp10.jpeg"/></div>
+                  <h5>ZBook studio G3</h5>
+                </router-link>
+              </li>
+              <li class="type-block">
+                <router-link  to="/recycle/attribute">
+                  <div><img src="/hp/hp11.jpeg"/></div>
+                  <h5>ZBOOK14 G2</h5>
+                </router-link>
+              </li>
+              <li class="type-block">
+                <router-link  to="/recycle/attribute">
+                  <div><img src="/hp/hp12.jpeg"/></div>
+                  <h5>光影精灵|||代</h5>
+                </router-link>
+              </li>
+            </ul>
+          </div></TabPane>
+          <TabPane :label="label3"> <div class="sub-title">戴尔相关机型</div></TabPane>
+          <TabPane :label="label4"> <div class="sub-title">华为相关机型</div></TabPane>
+          <TabPane :label="label5"> <div class="sub-title">微软相关机型</div></TabPane>
 
+        </Tabs>
       </div>
 
     </div>
@@ -119,22 +169,22 @@ export default {
       text: "这是文案",
       type: "苹果",
       label1: h => {
-        return h("div", [h("img", { attrs: { src: "/home/brand1.png" } })]);
+        return h("div", [h("img", { attrs: { src: "/home/logo1.png" } })]);
       },
       label2: h => {
-        return h("div", [h("img", { attrs: { src: "/home/brand2.jpg" } })]);
+        return h("div", [h("img", { attrs: { src: "/home/logo2.png" } })]);
       },
       label3: h => {
-        return h("div", [h("img", { attrs: { src: "/home/brand3.jpg" } })]);
+        return h("div", [h("img", { attrs: { src: "/home/logo3.png" } })]);
       },
       label4: h => {
-        return h("div", [h("img", { attrs: { src: "/home/brand4.jpg" } })]);
+        return h("div", [h("img", { attrs: { src: "/home/logo4.png" } })]);
       },
       label5: h => {
-        return h("div", [h("img", { attrs: { src: "/home/brand5.jpg" } })]);
+        return h("div", [h("img", { attrs: { src: "/home/logo5.png" } })]);
       },
       label6: h => {
-        return h("div", [h("img", { attrs: { src: "/home/brand6.jpg" } })]);
+        return h("div", [h("img", { attrs: { src: "/home/logo6.png" } })]);
       }
     };
   }
@@ -143,7 +193,7 @@ export default {
 
 <style lang="stylus" scoped>
 .hero {
-  height 45rem
+  height 42rem
   background-color #eee
   background-position: center center;
   background-repeat: no-repeat;
@@ -188,6 +238,7 @@ export default {
 #content-block{
   margin-right: 250px;
   margin-left: 250px;
+  min-height 700px;
 }
 li{
   display inline-block
